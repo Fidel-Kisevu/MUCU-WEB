@@ -1,23 +1,17 @@
 /* Resetting default browser styles */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: none;
+  border: none ;
+  text-decoration: none;
+  transition: .2s linear;
+}
   body{
     margin: 0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(90deg,#f5a133,#00a651);
 }
-main{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.p{
-    font-size: 22px;
-    vertical-align: baseline;
-    margin: 0 auto 2rem;
-    line-height: 24px;
-    max-width: 552px;
-
-}
-* {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-  }
